@@ -31,10 +31,7 @@ public class ControlUsuario {
 
     }
 
-    ;
-    
-    
-public void llenarTabla(JTable table) {
+    public void llenarTabla(JTable table) {
         DefaultTableModel modelo = new DefaultTableModel() {
 
             @Override
@@ -58,7 +55,7 @@ public void llenarTabla(JTable table) {
             datos[1] = usuario.getNombre();
             datos[2] = usuario.getApellido();
             datos[3] = usuario.getEdad();
-            
+
             modelo.addRow(datos);
 
         }

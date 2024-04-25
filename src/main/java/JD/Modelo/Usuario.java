@@ -5,19 +5,17 @@
  */
 package JD.Modelo;
 
-
 public class Usuario {
-   private String nit,nombre,apellido;
-   private int edad;
+
+    private String nit, nombre, apellido;
+    private int edad;
 
     public Usuario(String nit, String nombre, String apellido, int edad) {
-         this.nit = nit;
-       this.nombre = nombre;
+        this.nit = nit;
+        this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
     }
-   
-   
 
     public String getNit() {
         return nit;
